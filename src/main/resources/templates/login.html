@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+    <form th:action="@{/doLogin}" method="post">
+        <label>登录名：<input name="loginName"></label>
+        <label>用户密码：<input name="password"></label>
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>
